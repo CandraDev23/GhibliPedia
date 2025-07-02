@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GhibliPedia</title>
+    <link
+      rel="shortcut icon"
+      href="assets/totoro-icon-favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/ghibli" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GhibliPedia</h1>
+      <p>Discover every Studio Ghibli film in one place.</p>
+      <form id="search-form">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="&#128269; Search here"
+        />
+      </form>
+      <div class="bar">
+        <img id="characterGif" src="assets/totoro-walk.gif" alt="Totoro walk" />
+        <h4 class="films-count">Results: 0</h4>
+        <div class="btn-group">
+          <p>Sort by:</p>
+          <button class="btn-toolbar sort-title" title="Sort by title">
+            <i class="fas fa-sort-alpha-down"></i>
+          </button>
+          <button class="btn-toolbar sort-release" title="Sort by release date">
+            Release date <i class="fas fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="films-section">
+        <div class="loader">
+          <div class="loader-material"></div>
+        </div>
+        <div class="content films">
+          <!-- films here -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <small>
+        Movie data is taken from Ghibli API by typicode. All character and movie
+        copyrights belong to Studio Ghibli.
+      </small>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

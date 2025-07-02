@@ -1,0 +1,138 @@
+@media screen and (max-width: 1198.98px) {
+  .films {
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+  }
+  header {
+    padding: 48px 120px 0px;
+  }
+  #films-section {
+    padding: 0 120px 48px;
+  }
+  header .bar {
+    margin: 36px 0 24px;
+  }
+  .gap-header {
+    margin: 36px 120px 36px;
+  }
+  #detail-film-section {
+    padding: 0 120px 48px;
+  }
+  .detail-cover img {
+    width: 70px;
+  }
+  footer {
+    padding: 12px 120px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  header {
+    padding: 42px 60px 0px;
+  }
+  #films-section {
+    padding: 0 60px 42px;
+  }
+  header .bar {
+    margin: 32px 0 24px;
+  }
+  .gap-header {
+    margin: 32px 60px 32px;
+  }
+  #detail-film-section {
+    padding: 0 60px 42px;
+  }
+  .detail-cover-header h2 {
+    font-size: 4em;
+  }
+  .detail-cover img {
+    width: 100px;
+  }
+  .detail-cover .detail-cover-header {
+    flex-basis: 160px;
+  }
+  footer {
+    padding: 12px 60px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .bar img {
+  width: 48px;
+  position: absolute;
+  top: -45px;
+  left: 0;
+}
+  header {
+    padding: 36px 48px 0px;
+  }
+  .detail-cover img {
+    width: 100px;
+  }
+  .detail-cover .detail-cover-header {
+    flex-basis: 160px;
+  }
+  #films-section {
+    padding: 0 48px 36px;
+  }
+  header .bar {
+    margin: 24px 0 24px;
+  }
+  .gap-header {
+    margin: 24px 48px 24px;
+  }
+  #detail-film-section {
+    padding: 0 48px 36px;
+  }
+  .films {
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+    gap: 6px;
+  }
+  .detail-cover-header h2 {
+    font-size: 3em;
+  }
+  footer {
+    padding: 12px 48px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  header {
+    padding: 32px 24px 0px;
+  }
+  #search {
+    width: 100%;
+  }
+  #films-section {
+    padding: 0 24px 32px;
+  }
+  header .bar {
+    margin: 24px 0 24px;
+  }
+  .gap-header {
+    margin: 24px 24px 24px;
+  }
+  #detail-film-section {
+    padding: 0 24px 32px;
+  }
+  .films {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  }
+  .detail-cover .detail-cover-header {
+    gap: 8px;
+  }
+  .detail-cover {
+    flex-direction: column;
+  }
+  .detail-cover img {
+    width: 100%;
+}
+header .bar {
+  gap: 8px;
+}
+.btn-group p {
+  display: none;
+}
+footer {
+    padding: 12px 24px;
+  }
+}
