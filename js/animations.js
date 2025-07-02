@@ -1,5 +1,5 @@
-const RUNNING_GIF = "/assets/totoro-walk.gif";
-const LOOKING_BACK_IMG = "/assets/totoro-walk-back.gif";
+const RUNNING_GIF = "assets/totoro-walk.gif";
+const LOOKING_BACK_IMG = "assets/totoro-walk-back.gif";
 const ANIMATION_DURATION = 20000;
 
 let img;
