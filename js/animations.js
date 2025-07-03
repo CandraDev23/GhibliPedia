@@ -1,11 +1,11 @@
-// Preload GIF di awal
+// Ganti path relatif dengan absolut
 const preloadImg1 = new Image();
 const preloadImg2 = new Image();
-preloadImg1.src = "../assets/totoro-walk.gif";
-preloadImg2.src = "../assets/totoro-walk-back.gif";
+preloadImg1.src = "/assets/totoro-walk.gif";
+preloadImg2.src = "/assets/totoro-walk-back.gif";
 
-const RUNNING_GIF = "../assets/totoro-walk.gif";
-const LOOKING_BACK_IMG = "../assets/totoro-walk-back.gif";
+const RUNNING_GIF = "/assets/totoro-walk.gif";
+const LOOKING_BACK_IMG = "/assets/totoro-walk-back.gif";
 const ANIMATION_DURATION = 20000;
 
 let img;
